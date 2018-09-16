@@ -1,0 +1,159 @@
+body {
+    background-color: darkgrey;
+}
+
+header {
+    background-color: antiquewhite;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #2639;
+    padding-bottom: 10px;
+}
+
+.container {
+       width:    2000 px;
+     margin :  auto;
+    background-color:ghostwhite; 
+    height:  900px;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+.Nav_Menu {
+    list-style:none;
+    margin:0;
+    background-color:white;
+    padding: 0;    
+}
+
+.Nav_Menu li {
+    min-width: 8em;
+    float:left;
+    margin-left: 0.5em;
+    text-align:center;
+}
+
+.Nav_Menu li a:link,
+.Nav_Menu li a:visited{
+    background-color:firebrick;
+    color: snow;
+    display: flex;
+    padding: 0.2em;
+    text-decoration:none;
+    font-weight: bold;
+    margin: 0 0 0.2em 0;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5); 
+    }
+.Nav_Menu li a:hover{
+    background-color: black;
+    transform:scale(1.5,1.5);
+}
+
+.clear {
+    clear: both;
+}
+
+#mainbody {
+    background-color:ghostwhite;
+}
+
+#WelcomeDiv {
+    background-color:oldlace;
+    float: left;
+    width: 60%;
+    margin-right:20px;
+    padding: 15px;
+    margin-left:  10px;
+    word-spacing: 20px;
+    box-shadow: 10px 10px 5px #2639;
+    margin-bottom: 10px;
+    text-decoration-style: dashed;
+    text-decoration:inherit;
+    font-style: oblique;
+    font-kerning: normal;
+    font-variant: normal;
+    font-family:monospace;
+    padding-left: 40px;
+}
+
+
+#NewsLetter {
+    background-color: darkred;
+    width:  20%;
+    padding:  20px;
+    margin-bottom: 5px;
+    float: right;
+     box-shadow: 10px 10px 5px #2639;
+    margin-right: 19px;
+}
+
+#LeftDiv {
+    background-color: ghostwhite;
+     box-shadow: 10px 10px 5px #2639;
+    width:  40%;
+    margin: 10px;
+    border:10px solid;
+    float: left;
+    padding: 10px;
+    border-color:gainsboro;
+    height:  400px;
+    font-family:serif;
+    font-size: 30px;
+    font-variant: normal;
+    font-weight: bold;
+}
+
+#LeftDiv img {
+    max-width: 530px;
+    max-height: inherit;
+}
+
+#RightDiv {
+    background-color: ghostwhite;
+     box-shadow: 10px 10px 5px #2639;
+    width: 40%;
+    margin: 10px;
+    border:10px solid;
+    float: right;
+    padding: 10px;
+    border-color:gainsboro;
+    height:  400px;
+    margin-right: 20px;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    text-align:center;
+}
+
+footer {
+    background-color: darkslategrey;
+    color: floralwhite;
+    height:   20px;
+    font-style: italic;
+    margin: 10px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    box-shadow: 10px 10px 5px #8888;
+}
+
+/*MOVE*/
+@keyframes mymove{
+    0% {left:0px;}
+    25%{left: 225px;}
+    50%{left: 450px;}
+    75%{left: 225px;}
+    100%{left: 0px;}
+    }
+#WelcomeDiv h2{
+    position:relative;
+    animation: mymove 5s infinite;
+}
+
+
+
+
