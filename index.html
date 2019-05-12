@@ -5,14 +5,14 @@
     <title>SCT Marks Viewer</title>
     <link rel = "stylesheet" type = "text/css" href = "Style.css">
 </head>
-<body>
+<body id=bg>
 <div class="container">
     <header>
         <div id = "logo"><a href="#"><img src="sct.png"></a></div>
         <div>
           <ul class = "Nav_Menu">
-              <li><a href = "Sample.html">Home</a></li>
-              <li><a href = "AboutMe.html">About Me</a></li>
+              <li><a href = "index.html">Home</a></li>
+              <li><a href = "AboutMe.html">About Us</a></li>
               <li><a href = "ContactUs.html">Contact  Us</a></li>
           </ul>
           <script type="text/javascript" src="JS.js">
@@ -24,11 +24,14 @@
     <section id = "MainBody">
         <div id = "WelcomeDiv"><h2>Student  Perfomance  Analysis</h2></div>
         <div id = "NewsLetter">
-            <input type="text" name="Name">
-            <br>
-        <input type="email" name="Email">
+
+<center>
+        <input type="email" placeholder="E-mail" name="Email">
+        <br><br>
+        <input type="password" placeholder="Password "name="Name">
             <br><br>
-            <input type="submit" name="Submit">
+            <input type="submit" name="Submit" value="Log In">
+</center>
         </div>
 
 
@@ -47,7 +50,7 @@
     </section>
     <div class="clear"></div>
 
-    <footer>Subject to Copyrights©</footer>
+    <footer>Subject to Copyright©</footer>
     </div>
 </body>
 </html>
