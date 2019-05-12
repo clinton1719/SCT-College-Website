@@ -1,2 +1,2 @@
 var a= prompt("Enter your name", "");
-document.write(a);
+console.log(a);
