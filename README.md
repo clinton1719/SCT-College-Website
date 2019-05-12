@@ -1,5 +1,6 @@
 # clinton1719.github.io
 
- A BASIC WEBPAGE CREATED FOR THE WEB TECHNOLOGY ASSIGNMENT. DOS (13.05.2019)
+ A basic webpage created for the Web Technology assignment.
+ DOS (13.05.2019)
  
  COLLABORATOR(S): CCF, PGA
