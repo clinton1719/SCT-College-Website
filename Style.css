@@ -15,7 +15,12 @@ p.one{
   text-align: justify;
   font-weight:lighter;
 }
-
+p.two{
+  margin-bottom: 10px;
+  margin-right:35px;
+  font-weight:bold;
+  float:right;
+}
 .container {
        width:    2000 px;
      margin :  auto;
@@ -149,7 +154,7 @@ p.one{
 }
 
 footer {
-    background-color: darkslategrey;
+    background-color: firebrick;
     color: floralwhite;
     height:   20px;
     font-style: italic;
@@ -158,7 +163,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 30px;
     padding-right: 40px;
-    box-shadow: 10px 10px 5px #8888;
+    box-shadow: 10px 10px 5px #8888
 }
 
 /*MOVE*/
