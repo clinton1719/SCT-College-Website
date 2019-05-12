@@ -11,7 +11,9 @@ header {
 
 p.one{
   font-family:"Courier New";
-  font-size:14;
+  font-size:15pt;
+  text-align: justify;
+  font-weight:lighter;
 }
 
 .container {
@@ -19,10 +21,6 @@ p.one{
      margin :  auto;
     background-color:ghostwhite;
     height:  900px;
-}
-
-#logo {
-    margin-bottom: 20px;
 }
 
 .Nav_Menu {
@@ -58,6 +56,23 @@ p.one{
 
 .clear {
     clear: both;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#boldd{
+  font-family: "Courier";
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#warning{
+  font-family: monospace;
+  font-size: 14pt;
+  color: red;
+  font-weight: bold;
 }
 
 #mainbody {
