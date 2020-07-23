@@ -1,3 +1,3 @@
 Marks Viewer Website
 
-<img src="https://ibb.co/LNq0H95" width="300" height="500">
+<img src="https://i.ibb.co/Z2wf7cm/college.png" width="700" height="500">
